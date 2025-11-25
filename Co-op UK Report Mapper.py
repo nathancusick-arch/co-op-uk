@@ -4,7 +4,7 @@ import io
 from datetime import datetime, timedelta
 
 # ---------------------------------------------------------
-#  HARD-CODED MAPPINGS — EXACT ONE-LINE FORMAT
+#  HARD-CODED MAPPINGS
 # ---------------------------------------------------------
 
 normal_mapping = {
@@ -87,7 +87,7 @@ rapid_mapping = {
 }
 
 # ---------------------------------------------------------
-#  HELPER FUNCTIONS — UNCHANGED
+#  HELPER FUNCTIONS
 # ---------------------------------------------------------
 
 def load_audits_from_upload(file):
